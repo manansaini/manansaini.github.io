@@ -1,0 +1,3 @@
+What is a Mail Transfer Agent (MTA)?
+
+A MTA is an application that routes and transmits electronic mail from one node on a network to another. It uses a protocol known as SMTP (Simple Mail Transfer Protocol) to perform its task.
