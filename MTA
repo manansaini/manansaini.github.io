@@ -1,3 +1,25 @@
-What is a Mail Transfer Agent (MTA)?
+- What is a Mail Transfer Agent (MTA)?
 
 A MTA is an application that routes and transmits electronic mail from one node on a network to another. It uses a protocol known as SMTP (Simple Mail Transfer Protocol) to perform its task.
+
+
+- Sendmail
+
+Sendmail now known as proofpoint (after Proofpoint, Inc acquired Sendmail, Inc) is by far the most popular and one of the oldest MTA on the Linux server platform. Sendmail has a lot of limitations though, in comparison to modern MTAs.
+
+Because of its complicated configuration steps and demands, and weak security mechanisms, many new MTAs have come up as alternatives to Sendmail, but importantly, it offers everything to do with mail on a network.
+
+
+- Postfix
+
+Postfix is a cross-platform, popular MTA that was designed and developed by Wietse Zweitze Venema for his mail server while working at IBM research department.
+It was primarily developed as an alternative to well known and popular Sendmail MTA. Postfix runs on Linux, Mac OSX, Solaris and several other Unix-like operating systems.
+
+It borrows a lot of Sendmail properties on the outside, but it has a totally and comprehensively distinct internal operation. Additionally, it bids to be fast in performance with easy configurations and secure operation mechanism and has the following major features:
+
+    Junk mail control
+    Supports multiple protocols
+    Database support
+    Mailbox support
+    Address manipulation support and many more
+
